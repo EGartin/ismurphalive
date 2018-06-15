@@ -17,14 +17,14 @@ namespace ismurphalive.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Is Murph alive? We're concerned.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Let us know if you know.";
 
             return View();
         }
